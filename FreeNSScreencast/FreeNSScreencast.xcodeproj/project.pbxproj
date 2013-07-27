@@ -132,9 +132,9 @@
 				88E56F7A17A2EFEF001DC746 /* AppDelegate.m */,
 				88E56F8217A2EFEF001DC746 /* ViewController.h */,
 				88E56F8317A2EFEF001DC746 /* ViewController.m */,
-				88E56F7117A2EFEF001DC746 /* Supporting Files */,
 				88F3938E17A44CC100B68521 /* FeedEntry.h */,
 				88F3938F17A44CC100B68521 /* FeedEntry.m */,
+				88E56F7117A2EFEF001DC746 /* Supporting Files */,
 			);
 			path = FreeNSScreencast;
 			sourceTree = "<group>";

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FeedEntry : NSObject <NSXMLParserDelegate, NSCoding>
+@interface FeedEntry : NSObject <NSXMLParserDelegate>
 @property (nonatomic, strong) NSMutableString *currentString;
 @property (nonatomic, strong) id <NSXMLParserDelegate> parentParserDelegate;
 

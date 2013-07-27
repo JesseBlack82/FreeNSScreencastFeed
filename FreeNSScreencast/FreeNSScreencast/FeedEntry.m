@@ -18,30 +18,6 @@
     return self;
 }
 
-- (void)encodeWithCoder:(NSCoder *)aCoder
-{
-	[aCoder encodeObject:_title forKey:@"title"];
-	[aCoder encodeObject:_link forKey:@"link;"];
-	[aCoder encodeObject:_content forKey:@"content"];
-	[aCoder encodeObject:_author forKey:@"author"];
-	[aCoder encodeObject:_published forKey:@"published"];
-	[aCoder encodeObject:_updated forKey:@"updated"];
-}
-
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-    self = [super init];
-    if (self)   {
-        self.title = [aDecoder decodeObjectForKey:@"title"];
-        self.link = [aDecoder decodeObjectForKey:@"link;"];
-        self.content = [aDecoder decodeObjectForKey:@"content"];
-        self.author = [aDecoder decodeObjectForKey:@"author"];
-        self.published = [aDecoder decodeObjectForKey:@"published"];
-        self.updated = [aDecoder decodeObjectForKey:@"updated"];
-    }
-    return self;
-}
-
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
 {
     NSLog(@"starting element %@", elementName);
