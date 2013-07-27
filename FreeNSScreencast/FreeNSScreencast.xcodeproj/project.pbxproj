@@ -17,13 +17,13 @@
 		88E56F7F17A2EFEF001DC746 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E56F7E17A2EFEF001DC746 /* Default@2x.png */; };
 		88E56F8117A2EFEF001DC746 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E56F8017A2EFEF001DC746 /* Default-568h@2x.png */; };
 		88E56F8417A2EFEF001DC746 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E56F8317A2EFEF001DC746 /* ViewController.m */; };
-		88E56F8717A2EFEF001DC746 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E56F8517A2EFEF001DC746 /* ViewController_iPhone.xib */; };
-		88E56F8A17A2EFEF001DC746 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E56F8817A2EFEF001DC746 /* ViewController_iPad.xib */; };
 		88E56F9217A2EFEF001DC746 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E56F9117A2EFEF001DC746 /* SenTestingKit.framework */; };
 		88E56F9317A2EFEF001DC746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E56F6A17A2EFEF001DC746 /* UIKit.framework */; };
 		88E56F9417A2EFEF001DC746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E56F6C17A2EFEF001DC746 /* Foundation.framework */; };
 		88E56F9C17A2EFEF001DC746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E56F9A17A2EFEF001DC746 /* InfoPlist.strings */; };
 		88E56F9F17A2EFEF001DC746 /* FreeNSScreencastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E56F9E17A2EFEF001DC746 /* FreeNSScreencastTests.m */; };
+		88F3939017A44CC100B68521 /* FeedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F3938F17A44CC100B68521 /* FeedEntry.m */; };
+		88F3939717A45F0100B68521 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F3939617A45F0100B68521 /* MediaPlayer.framework */; };
 		9898043D0BA94A8F807C71C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 475341C118564336A830AD53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,14 +54,15 @@
 		88E56F8017A2EFEF001DC746 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		88E56F8217A2EFEF001DC746 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		88E56F8317A2EFEF001DC746 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		88E56F8617A2EFEF001DC746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		88E56F8917A2EFEF001DC746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		88E56F9017A2EFEF001DC746 /* FreeNSScreencastTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeNSScreencastTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E56F9117A2EFEF001DC746 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		88E56F9917A2EFEF001DC746 /* FreeNSScreencastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeNSScreencastTests-Info.plist"; sourceTree = "<group>"; };
 		88E56F9B17A2EFEF001DC746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88E56F9D17A2EFEF001DC746 /* FreeNSScreencastTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreeNSScreencastTests.h; sourceTree = "<group>"; };
 		88E56F9E17A2EFEF001DC746 /* FreeNSScreencastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeNSScreencastTests.m; sourceTree = "<group>"; };
+		88F3938E17A44CC100B68521 /* FeedEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedEntry.h; sourceTree = "<group>"; };
+		88F3938F17A44CC100B68521 /* FeedEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedEntry.m; sourceTree = "<group>"; };
+		88F3939617A45F0100B68521 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		92287927ACAA4D4A8DB6260D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F3939717A45F0100B68521 /* MediaPlayer.framework in Frameworks */,
 				88E56F6B17A2EFEF001DC746 /* UIKit.framework in Frameworks */,
 				88E56F6D17A2EFEF001DC746 /* Foundation.framework in Frameworks */,
 				88E56F6F17A2EFEF001DC746 /* CoreGraphics.framework in Frameworks */,
@@ -93,6 +95,7 @@
 		88E56F5E17A2EFEF001DC746 = {
 			isa = PBXGroup;
 			children = (
+				88F3939617A45F0100B68521 /* MediaPlayer.framework */,
 				88E56F7017A2EFEF001DC746 /* FreeNSScreencast */,
 				88E56F9717A2EFEF001DC746 /* FreeNSScreencastTests */,
 				88E56F6917A2EFEF001DC746 /* Frameworks */,
@@ -129,9 +132,9 @@
 				88E56F7A17A2EFEF001DC746 /* AppDelegate.m */,
 				88E56F8217A2EFEF001DC746 /* ViewController.h */,
 				88E56F8317A2EFEF001DC746 /* ViewController.m */,
-				88E56F8517A2EFEF001DC746 /* ViewController_iPhone.xib */,
-				88E56F8817A2EFEF001DC746 /* ViewController_iPad.xib */,
 				88E56F7117A2EFEF001DC746 /* Supporting Files */,
+				88F3938E17A44CC100B68521 /* FeedEntry.h */,
+				88F3938F17A44CC100B68521 /* FeedEntry.m */,
 			);
 			path = FreeNSScreencast;
 			sourceTree = "<group>";
@@ -246,8 +249,6 @@
 				88E56F7D17A2EFEF001DC746 /* Default.png in Resources */,
 				88E56F7F17A2EFEF001DC746 /* Default@2x.png in Resources */,
 				88E56F8117A2EFEF001DC746 /* Default-568h@2x.png in Resources */,
-				88E56F8717A2EFEF001DC746 /* ViewController_iPhone.xib in Resources */,
-				88E56F8A17A2EFEF001DC746 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +316,7 @@
 				88E56F7717A2EFEF001DC746 /* main.m in Sources */,
 				88E56F7B17A2EFEF001DC746 /* AppDelegate.m in Sources */,
 				88E56F8417A2EFEF001DC746 /* ViewController.m in Sources */,
+				88F3939017A44CC100B68521 /* FeedEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,22 +345,6 @@
 				88E56F7417A2EFEF001DC746 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		88E56F8517A2EFEF001DC746 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88E56F8617A2EFEF001DC746 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		88E56F8817A2EFEF001DC746 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88E56F8917A2EFEF001DC746 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		88E56F9A17A2EFEF001DC746 /* InfoPlist.strings */ = {

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface ViewController : UITableViewController <NSXMLParserDelegate, UITableViewDataSource, UITableViewDelegate, MPMediaPlayback>
 
-@interface ViewController : UIViewController
-
+@property (nonatomic, strong) MPMoviePlayerViewController *mpvc;
+@property (nonatomic, strong) NSXMLParser *parser;
+@property (nonatomic, strong) NSMutableArray *entries;
 @end

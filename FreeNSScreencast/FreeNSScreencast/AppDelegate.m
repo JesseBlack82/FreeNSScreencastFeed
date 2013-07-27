@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
-#import "AFHttpClient.h"
 
 @implementation AppDelegate
 
@@ -17,21 +16,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
-    }
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
     
-    NSURL *url = [NSURL URLWithString:@"http://nsscreencast.com"];
-    AFHTTPClient *client = [[AFHTTPClient alloc] initWithBaseURL:url];
-    [client getPath:@"feed" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"success %@", [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding]);
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"error %@", error);
-    }];
+    self.viewController = [[ViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
